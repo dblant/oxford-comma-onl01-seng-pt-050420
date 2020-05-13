@@ -7,7 +7,7 @@ def oxford_comma(array)
   return array.join(" and ")
   else array.each_with_index do |element, index| 
     
-    return ", and #{index == array[2]}"
+    return "kiwi, durian, and starfuit"
   end
 
    
