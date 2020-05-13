@@ -11,7 +11,7 @@ def oxford_comma(array)
    last_item = " and #{array[-1]}"
    
   array.pop
-  array << last_item
+  array << (last_item)
   
   
 
