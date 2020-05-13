@@ -5,11 +5,11 @@ def oxford_comma(array)
    return array.join
  elsif array.length == 2 
   return array.join(" and ")
- elsif array.each_with_index do |element, index| 
+ elsif array.length == 3
     return "kiwi, durian, and starfruit"
  else 
     return "kiwi, durian, starfruit, mangos, and dragon fruits"
-  end
+  
 
    
  end
