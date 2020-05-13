@@ -16,7 +16,7 @@ def oxford_comma(array)
   
 
 end
-oxford_comma(["kiwi"])
+end
   
 
 # array.each_with_index do |fruit, index| 
