@@ -1,19 +1,7 @@
 array = ["kiwi","durian"," starfruit"]
 
 def oxford_comma(array)
- array.join(" and ")
- 
- 
- if array.count == 3
-   puts array.each_with
- 
-   
-  
-    
-  
-  
-
-  
+ array.join
 
 end
 end
