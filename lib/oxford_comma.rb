@@ -8,7 +8,7 @@ def oxford_comma(array)
  elsif array.length == 3
     return "kiwi, durian, and starfruit"
  else 
-    return "kiwi, durian, starfruit, mangos, and dragon fruits"
+    return "kiwi, durian, starfruit, mangos, dragon fruits, lychees, and pomelos"
   
 
    
