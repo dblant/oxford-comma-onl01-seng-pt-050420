@@ -5,10 +5,9 @@ def oxford_comma(array)
    return array.join
  elsif array.length == 2 
   return array.join(" and ")
- elsif array.length == 3
-    return "kiwi, durian, and starfruit"
- else 
-    return "kiwi, durian, starfruit, mangos, dragon fruits, lychees, and pomelos"
+ else
+   
+  
   
 
    
