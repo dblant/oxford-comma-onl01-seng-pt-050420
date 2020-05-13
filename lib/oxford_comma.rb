@@ -5,8 +5,8 @@ def oxford_comma(array)
    return array.join
  elsif array.length == 2 
   return array.join(" and ")
-  else array.else_with_index do |element, index| 
-    return array.join("")
+  else array.each_with_index do |element, index| 
+    return array.join(", ")
   
 
    
