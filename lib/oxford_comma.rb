@@ -1,7 +1,8 @@
 array = ["kiwi","durian"," starfruit"]
 
 def oxford_comma(array)
- array.join
+ if array.length == 1
+   puts array.join
  
 
 
