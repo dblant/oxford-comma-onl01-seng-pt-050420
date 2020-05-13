@@ -12,6 +12,7 @@ def oxford_comma(array)
    
   array.pop
   array << (last_item)
+  return array.join
   
   
 
