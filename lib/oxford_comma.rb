@@ -1,5 +1,5 @@
 array = ["kiwi","durian"," starfruit"]
-fix = "#{"
+fix = "#{array[-1]}"
 def oxford_comma(array)
  if array.length == 1
    return array.join
